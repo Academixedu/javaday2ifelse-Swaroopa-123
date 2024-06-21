@@ -11,23 +11,22 @@ public class StudentGradeEvaluation {
         int age = in.nextInt();
         System.out.println("Enter your exam score");
         int score = in.nextInt();
-        String Grade=in.nextLine();
-        System.out.println("Enter your grade");
+        String grade;
 
         if (score >= 90) {
-            System.out.println("Grade: A");
+            grade = "A";
         } else if (score >= 80) {
-            System.out.println("Grade: B");
+            grade = "B";
         } else if (score >= 70) {
-            System.out.println("Grade: C");
+            grade = "C";
         } else if (score >= 60) {
-            System.out.println("Grade: D");
+            grade = "D";
         } else {
-            System.out.println("Grade: F");
+            grade = "F";
         }
         System.out.println("enter the name:"+name );
         System.out.println("enter the age :"+age );
         System.out.println("enter the score :"+score );
-        System.out.println("grade:"+Grade);
+        System.out.println("grade:"+grade);
     }
 }
